@@ -1,0 +1,22 @@
+weapon_autoshotgun一代连喷
+weapon_grenade_launcher榴弹发射器
+weapon_hunting_rifle木狙/猎枪/15连
+weapon_molotov燃烧瓶
+weapon_pipe_bomb土制手雷
+weapon_pistol默认手枪
+weapon_pistol_magnum马格南手枪
+weapon_pumpshotgun木喷/一代单喷
+weapon_rifle m16
+weapon_rifle_ak47 ak47
+weapon_rifle_desert 3连发步枪/scar
+weapon_rifle_m60 m60
+weapon_rifle_sg552 sg552/可缩放步枪
+weapon_shotgun_chrome 铁喷/二代单喷
+weapon_shotgun_spas 二代连喷
+weapon_smg 乌兹
+weapon_smg_mp5 mp5
+weapon_smg_silenced 消音微冲/mac10
+weapon_sniper_awp 大狙/20发狙击
+weapon_sniper_military 30连/军用狙/二代连狙
+weapon_sniper_scout 鸟狙/15发轻狙
+weapon_vomitjar 胆汁罐

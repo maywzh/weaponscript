@@ -1,0 +1,51 @@
+**********************************************************************************
+*
+*
+修改gamemod后，必须加入sv_consistency  0指令才能在多人模式中生效！！
+*
+*
+**********************************************************************************
+//以下代码只有0和1两个取值，均为0否1是
+sb_all_bot_game 是否允许bot自行游戏（开启后，单人模式下即使玩家死亡，bot也会自行完成关卡，前提是bot的智能足够高...）
+allow_all_bot_survivor_team 是否允许一支队伍全员bot（搭配上条使用）
+sb_allow_leading 是否允许bot带路（开启后bot不会傻乎乎跟着你，会自己找路）
+//以下为自由修改数值型
+adrenaline_duration 15 肾上腺素持续时间，单位为秒
+adrenaline_health_buffer 30 肾上腺素回复血量
+adrenaline_run_speed 280 肾上腺素后的移动速度（玩家默认移动速度240）
+
+first_aid_heal_percent 医疗包回复比率 1.0时无论多少血打包都是100%回复率
+first_aid_kit_max_heal 医疗包回复后的最大血量值
+first_aid_kit_use_duration 打包持续时间
+melee_force_scalar近战攻击力度（调高后对伤害无影响，但是视觉效果很好，可以把丧尸打远远）
+melee_range 近战攻击距离
+pain_pills_decay_rate 止痛药提供的假血衰减速率，默认值0.135，每（1/0.135）秒损失一点假血。越小越好，为0时不会衰减。
+pain_pills_health_value 止痛药提供的假血量，不能超过100，但可以是负数.
+phys_explosion_force 爆炸力度，对榴弹以外的爆炸事件生效
+survivor_friendly_fire_factor_easy  0           
+survivor_friendly_fire_factor_expert  0.5
+survivor_friendly_fire_factor_hard  0.1         
+survivor_friendly_fire_factor_normal   0.05   
+均为友伤倍率，攻击敌人的伤害乘以倍率即为对友军的伤害，以上以此对应简单，专家，困难，普通
+survivor_incap_health 倒地时的假血
+survivor_max_incapacitated_count 倒地多少次后才会死亡
+survivor_revive_duration 倒地起身时间
+survivor_revive_health 倒地起身后的假血量
+
+upgrade_explosive_bullet_force   9999
+upgrade_explosive_slug_force   9999
+以上两条为高爆弹打击力度，数值高了以后高爆弹可以打飞各种铁，像tank一样。
+
+grenadelauncher_ff_scale 0 榴弹对队友的伤害力度
+grenadelauncher_ff_scale_self 0 榴弹对自身的伤害力度
+grenadelauncher_damage 999999 榴弹威力
+grenadelauncher_force_kill 2000 榴弹杀伤力
+grenadelauncher_radius_kill 1800 榴弹杀伤范围
+grenadelauncher_radius_stumble 1900 榴弹震荡范围
+grenadelauncher_velocity 3600 榴弹飞行速度
+
+z_gun_swing_coop_max_penalty 999999999 最多可以推多少次
+z_gun_swing_coop_min_penalty 999999999 最少可以推多少次
+z_gun_range 999999999 推打范围
+z_gun_swing_interval 0.1 推打间隔
+
