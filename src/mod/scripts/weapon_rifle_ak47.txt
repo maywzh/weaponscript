@@ -59,8 +59,8 @@ WeaponData
 	"PenetrationPower"			"70"
 	"PenetrationMaxDistance"	"0"	// none
 
-	"Damage"			"90"	//单发子弹的伤害 63改为90
-	"Range"				"4000"  // 子弹的射程从6000改为4000
+	"Damage"			"105"	//单发子弹的伤害 63改为90
+	"Range"				"5500"  // 子弹的射程从6000改为4000
 	"RangeModifier"			"0.97"
 	"GainRange"			"1500"	// range at which to use a gain curve to fall off to zero
 	"Bullets"			"1"
