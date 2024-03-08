@@ -1,7 +1,7 @@
 MeleeWeaponData
 {
 	// Time before you can swing the weapon again
-	"refire_delay"	"0.88"
+	"refire_delay"	"0.85"
 	
 	// Model to show in firstperson
 	"viewmodel"		"models/weapons/melee/v_pitchfork.mdl"
