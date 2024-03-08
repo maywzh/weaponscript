@@ -63,7 +63,7 @@ WeaponData
 	"PenetrationPower"			"50"
 	"PenetrationMaxDistance"	"0"	// none
 
-	"Damage"			"33"  //伤害从20改为33
+	"Damage"			"45"  //伤害从20改为33
 	"GainRange"			"900"
 	"Range"				"2200"   // 子弹的射程 1500改为2200
 	"RangeModifier"			"0.84"

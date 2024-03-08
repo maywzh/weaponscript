@@ -59,7 +59,7 @@ WeaponData
 	"PenetrationPower"			"30"
 	"PenetrationMaxDistance"	"0"	// none
 
-	"Damage"			"38"     // 单发子弹的伤害 25改为38
+	"Damage"			"48"     // 单发子弹的伤害 25改为38
 	"Range"				"2500"   // 子弹的射程
 	"RangeModifier"			"0.84"
 	"Bullets"			"1"
