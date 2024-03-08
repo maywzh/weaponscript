@@ -1,7 +1,7 @@
 MeleeWeaponData
 {
 	// Time before you can swing the weapon again
-	"refire_delay"	"0.8"
+	"refire_delay"	"0.7"
 
 	// Model to show in firstperson
 	"viewmodel"		"models/v_models/v_knife_t.mdl"
