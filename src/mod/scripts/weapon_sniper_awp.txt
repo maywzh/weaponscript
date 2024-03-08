@@ -8,13 +8,13 @@ WeaponData
 	"MinDuckingSpread"		"0"
 	"MinStandingSpread"		"0.1"
 	"MinInAirSpread"		"1.5"
-        "MaxMovementSpread"		"0"
+	"MaxMovementSpread"		"0"
 	"AddonAttachment"		"primary"
 	"Team"					"Survivor"
 	
 	"Tier"					"2"		// valid entries are 0, 1, 2
 	
-	"ResponseRulesName"		"Sniper_AWM"
+	"ResponseRulesName"		"Sniper_AWP"
 	
 	"NewInL4D2"				"1"
 	"CSWeapon"				"1"
@@ -31,8 +31,8 @@ WeaponData
 	// Used in the music system when this weapon fires
 	"MusicDynamicSpeed"		"3.5"
 	
-	"DisplayName"				"#L4D_Weapon_Sniper_AWM"
-	"DisplayNameAllCaps"		"#L4D_Weapon_Sniper_AWM_CAPS"
+	"DisplayName"				"#L4D_Weapon_Sniper_AWP"
+	"DisplayNameAllCaps"		"#L4D_Weapon_Sniper_AWP_CAPS"
 	
 	// 360 Terror Data
 	"MaxAutoAimDeflection1"			"6.0"
@@ -48,7 +48,7 @@ WeaponData
 	"WeaponArmorRatio"		"1.45"
 	"CrosshairMinDistance"		"8"
 	"CrosshairDeltaDistance"	"3"
-	"BuiltRightHanded"		"0"
+	"BuiltRightHanded"		"1"
 	"PlayerAnimationExtension"	"awp"
 	"MuzzleFlashScale"		"1.6"
 	"MuzzleFlashStyle"		"CS_MUZZLEFLASH_X"
@@ -62,7 +62,7 @@ WeaponData
 	"PenetrationMaxDistance"	"0"	// none
 	"CharacterPenetrationMaxDistance" "8192" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"3800"   // 单发子弹的伤害 从88888改为3800
+	"Damage"			"1000"   // 单发子弹的伤害 从88888改为3800
 	"Range"				"8192"
 	"RangeModifier"			"1.0"
 	"Bullets"			"1"
