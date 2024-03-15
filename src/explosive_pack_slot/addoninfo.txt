@@ -1,0 +1,14 @@
+"AddonInfo"
+{
+    addonSteamAppID     550
+	addontitle	"Explosive Pack Slot"		
+	addonversion	"1.0"
+	addonauthor 	""
+	addonDescription 
+"This will add a slot for your Explosive Pack. You will now be able to carry the Explosive Pack and the Medkit.
+
+Note:
+Use the mouse wheel to scroll to the Explosive Pack"
+
+addonContent_Script 1
+}

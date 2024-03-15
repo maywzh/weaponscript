@@ -29,7 +29,7 @@ WeaponData
 	"Damage"					"50"
 	"Range"						"4096"
 	"RangeModifier"				"0.99"
-	"Bullets"					"1"
+	"Bullets"					"2"
 
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"					"Molotov"

@@ -1,32 +1,18 @@
 WeaponData
 {
 	"MaxPlayerSpeed"			"250"
-	"WeaponType"				"healing"
+	"WeaponType"				"carried_prop"
 	"WeaponPrice"				"300"
 	"WeaponArmorRatio"			"1"
-	"CrosshairMinDistance"		"8"
-	"CrosshairDeltaDistance"	"3"
 	"Team"						"Survivor"
 	"BuiltRightHanded"			"1"
 	"PlayerAnimationExtension" 	"gren"
 	"MuzzleFlashScale"			"0"
 	"MuzzleFlashStyle"			"CS_MUZZLEFLASH_NONE"
-	
-	"Tier"						"0"		// valid entries are 0, 1, 2
-	
-	"ResponseRulesName"			"Defibrillator"
-	
-	// Used in the music system when this weapon fires
-	"MusicDynamicSpeed"			"2"
-	
-	"DisplayName"				"#L4D_Weapon_Defibrillator"
-	"DisplayNameAllCaps"		"#L4D_Weapon_Defibrillator_CAPS"
 
 	"CanEquipWithShield"		"1"
-	"AddonModel"				"models/w_models/weapons/w_eq_defibrillator.mdl"
-	"AddonAttachment"			"medkit"
-	"addon_offset"			"1 0 0"
-	"addon_angles"			"-90 15 0"
+	"AddonModel"				"models/props_junk/explosive_box001.mdl"
+	"AddonAttachment"			"gascan"
 
 	// Weapon characteristics:
 	"Penetration"				"1"
@@ -35,11 +21,13 @@ WeaponData
 	"RangeModifier"				"0.99"
 	"Bullets"					"1"
 	
-	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"					"_ Defibrillator _"
-	"playermodel"				"models/w_models/weapons/w_eq_defibrillator.mdl"
-	"viewmodel"					"models/v_models/v_defibrillator.mdl"
+	"ResponseRulesName"			"FireworkCrate"
 	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"					"fireworkcrate"
+	"playermodel"				"models/props_junk/explosive_box001.mdl"
+	"viewmodel"					"models/props_junk/explosive_box001.mdl"
+
 	"CharacterViewmodelAddon"
 	{
 		"Coach"				"models/weapons/arms/v_arms_coach_new.mdl"
@@ -52,9 +40,9 @@ WeaponData
 		"TeenGirl"			"models/weapons/arms/v_arms_zoey.mdl"
 		"NamVet"			"models/weapons/arms/v_arms_bill.mdl"
 	}
-
+	
 	"anim_prefix"				"anim"
-	"bucket"					"4"
+	"bucket"					"7"
 	"bucket_position"			"1"
 
 	"clip_size"					"-1"
@@ -72,49 +60,24 @@ WeaponData
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
-	TextureData
-	{
-		"weapon"
-		{
-				"file"		"vgui/hud/iconsheet2"
-				"x"			"192"
-				"y"			"256"
-				"width"		"64"
-				"height"	"64"
-		}
-		"weapon_s"
-		{
-				"file"		"vgui/hud/iconsheet2"
-				"x"			"256"
-				"y"			"256"
-				"width"		"64"
-				"height"	"64"
-		}
-		"weapon_small"
-		{
-				"file"		"vgui/hud/iconsheet"
-				"x"			"480"
-				"y"			"480"
-				"width"		"32"
-				"height"	"32"
-		}
-		"crosshair"
-		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
-		}
-		"autoaim"
-		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
-		}
-	}
+//	TextureData
+//	{
+//		"weapon"
+//		{
+//				"font"		"L4D_WeaponsSmall"
+//				"character"	"b"
+//		}
+//		"weapon_s"
+//		{	
+//				"font"		"L4D_Weapons"
+//				"character"	"b"
+//		}
+//		"ammo"
+//		{
+//				"font"		"DebugFixed"
+//				"character"	"A"
+//		}
+//	}
 	ModelBounds
 	{
 		Viewmodel

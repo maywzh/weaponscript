@@ -88,7 +88,7 @@ WeaponData
 	"bucket"			"0"
 	"bucket_position"	"0"
 
-	"clip_size"			"2"          //主弹匣的 子弹数量6 改为 2
+	"clip_size"			"5"          //主弹匣的 子弹数量6 改为 2
 	
 	"primary_ammo"		"AMMO_TYPE_GRENADELAUNCHER"
 	"secondary_ammo"	"None"

@@ -1,61 +1,59 @@
 WeaponData
 {
 	"MaxPlayerSpeed"			"250"
-	"WeaponType"				"grenade"
+	"WeaponType"				"upgradepack"
 	"WeaponPrice"				"300"
 	"WeaponArmorRatio"			"1"
 	"CrosshairMinDistance"		"8"
 	"CrosshairDeltaDistance"	"3"
-                "DeployDuration"                     "0.01"
 	"Team"						"Survivor"
 	"BuiltRightHanded"			"1"
 	"PlayerAnimationExtension" 	"gren"
 	"MuzzleFlashScale"			"0"
 	"MuzzleFlashStyle"			"CS_MUZZLEFLASH_NONE"
-
+	
 	"Tier"						"0"		// valid entries are 0, 1, 2
-
-	"ResponseRulesName"			"VomitJar"
-
-	"DisplayName"				"#L4D_Weapon_VomitJar"
-	"DisplayNameAllCaps"		"#L4D_Weapon_VomitJar_CAPS"
+	
+	"ResponseRulesName"			"UpgradePack_Explosive"
+	
+	// Used in the music system when this weapon fires
+	"MusicDynamicSpeed"			"2"
+	
+	"DisplayName"				"#L4D_Weapon_UpgradePack_Explosive"
+	"DisplayNameAllCaps"		"#L4D_Weapon_UpgradePack_Explosive_CAPS"
 
 	"CanEquipWithShield"		"1"
-	"AddonModel"				"models/w_models/weapons/w_eq_bile_flask.mdl"
-	"AddonAttachment"			"molotov"
+	"AddonModel"				"models/w_models/weapons/w_eq_explosive_ammopack.mdl"
+	"AddonAttachment"			"medkit"
 
 	// Weapon characteristics:
 	"Penetration"				"1"
 	"Damage"					"50"
 	"Range"						"4096"
 	"RangeModifier"				"0.99"
-	"Bullets"					"2"
-
+	"Bullets"					"1"
+	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"					"_ Vomit Jar _"
-	"playermodel"				"models/w_models/weapons/w_eq_bile_flask.mdl"
+	"printname"					"_ UpgradePack_Explosive _"
+	"playermodel"				"models/w_models/weapons/w_eq_explosive_ammopack.mdl"
 
-	"viewmodel"					"models/v_models/v_bile_flask.mdl"
+	"viewmodel"					"models/v_models/v_explosive_ammopack.mdl"
+	
 	"CharacterViewmodelAddon"
 	{
 		"Coach"				"models/weapons/arms/v_arms_coach_new.mdl"
 		"Mechanic"			"models/weapons/arms/v_arms_mechanic_new.mdl"
 		"Producer"			"models/weapons/arms/v_arms_producer_new.mdl"
 		"Gambler"			"models/weapons/arms/v_arms_gambler_new.mdl"
-		
-		 "Manager"     "models/weapons/arms/v_arms_louis.mdl"
-		"Biker"       "models/weapons/arms/v_arms_francis.mdl"
-	  "TeenGirl"    "models/weapons/arms/v_arms_zoey.mdl"
-	  "NamVet"      "models/weapons/arms/v_arms_bill.mdl"
 	}
 
 	"anim_prefix"				"anim"
-	"bucket"					"2"
+	"bucket"					"8"
 	"bucket_position"			"1"
 
 	"clip_size"					"-1"
 	"default_clip"				"1"
-	"primary_ammo"				"AMMO_TYPE_VOMITJAR"
+	"primary_ammo"				"AMMO_TYPE_FIRSTAID"
 	"secondary_ammo"			"None"
 
 	"weight"					"2"
@@ -65,7 +63,6 @@ WeaponData
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		//"idle"	"Molotov.IdleLoop"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -75,25 +72,25 @@ WeaponData
 		{
 				"file"		"vgui/hud/iconsheet2"
 				"x"			"384"
-				"y"			"192"
+				"y"			"448"
 				"width"		"64"
 				"height"	"64"
-		}
-		"weapon_small"
-		{
-				"file"		"vgui/hud/iconsheet2"
-				"x"			"448"
-				"y"			"192"
-				"width"		"32"
-				"height"	"32"
 		}
 		"weapon_s"
 		{
 				"file"		"vgui/hud/iconsheet2"
 				"x"			"384"
-				"y"			"256"
+				"y"			"448"
 				"width"		"64"
-				"height"	"64"
+				"height"	"64"	
+		}
+		"weapon_small"
+		{
+				"file"		"vgui/hud/iconsheet2"
+				"x"			"480"
+				"y"			"192"
+				"width"		"32"
+				"height"	"32"
 		}
 		"crosshair"
 		{
