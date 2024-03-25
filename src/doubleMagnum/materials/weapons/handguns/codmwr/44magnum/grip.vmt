@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Weapons/Handguns/CODMWR/44Magnum/Grip"
+	$bumpmap "Weapons/Handguns/CODMWR/44Magnum/Recieve_N"
+	$phongexponenttexture "Weapons/Handguns/CODMWR/44Magnum/Recieve_S"
+
+                //MISC
+
+	$nodecal 		1
+	$halflambert	1
+
+                //PHONG
+
+	$phong		1
+	$phongboost 	1.2
+                $phongfresnelranges               "[0.5 1 2]"
+
+                //RIMLIGHT
+
+	$rimlight	                1
+	$rimlight_boost	25
+}

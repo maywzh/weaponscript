@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+    addonSteamAppID        550
+    addontitle             "Double holding  .44 Magnum"
+    addonversion           "1.0"
+    addonauthor            "Azhe"
+    addonDescription       "Magnum"
+}
