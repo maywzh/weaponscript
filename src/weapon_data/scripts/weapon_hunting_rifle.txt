@@ -55,7 +55,7 @@ WeaponData
 	"PenetrationMaxDistance"	"0"	// none
 	"CharacterPenetrationMaxDistance" "8192" // Shooting through infected is doesn't count against penetration count out to this range
 
-	"Damage"			"380"   //单发伤害从350改为280
+	"Damage"			"480"   //单发伤害从350改为280
 	"Range"				"8192"  //射程
 	"RangeModifier"			"1.0"
 	"Bullets"			"1"
@@ -88,7 +88,7 @@ WeaponData
 	"bucket"			"0"
 	"bucket_position"		"0"
 
-	"clip_size"			"13"  //主弹夹容量 15到13
+	"clip_size"			"18"  //主弹夹容量 15到13
 
 	"primary_ammo"			"AMMO_TYPE_HUNTINGRIFLE"
 	"secondary_ammo"		"None"
