@@ -1,0 +1,33 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "mw2022\weapons\scar\xmaterial_7d032683ca8094a7_rgb"
+    "$bumpmap" "mw2022\weapons\scar\xmaterial_7d032683ca8094a7_n"
+    "$phongexponenttexture" "mw2022\weapons\scar\exponent"
+
+	"$phong" "1"
+	"$phongboost" "3.5"
+	"$phongexponent" "10"
+	"$phongfresnelranges" "[2 1.2 8]"
+	"$phongalbedotint" "1"
+	"$normalmapalphaenvmapmask" "1"
+    "$blendtintbybasealpha" "1"
+
+	
+
+
+	"$cloakPassEnabled" 		"1"				
+	"$nocull" "1"
+
+	"$detail" "mw2022\weapons\scar\specular"
+	"$detailscale" "1"        
+	"$detailblendfactor" "0.05" 
+		$rimlight	"1"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"2"
+
+
+	"$color2" "[.5 .5 .5]"
+}
