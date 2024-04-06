@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+    addonSteamAppID        550
+    addontitle             "Remmy 870"
+    addonversion           1.0
+    addonauthor            "Jimmakos & Lt. Rocky & Paysus"
+    addonDescription       "Crash's post apocalyptic Remington 870 on Paysus' Spas12(autoshotgun) animations"
+}

@@ -1,0 +1,28 @@
+VertexLitGeneric
+{
+"$baseTexture" "Weapons\r870/r870_d"
+"$bumpmap"     "Weapons\r870/r870_n"
+
+"$normalmapalphaenvmapmask" "1"
+"$normalmapalphaphongmask"  "1"
+
+"$envmap"                   "env_cubemap"
+	"$envmaptint"           "[.01 .01 .01]"
+	"$envmapcontrast"       ".4"
+	"$nocull"	            "1"
+
+"$phong" 	               "1"
+	"$phongboost"	       "0.8"
+	"$phongfresnelranges"  "[0.25 0.75  0.3]"
+	$phongexponenttexture  "Weapons\r870/r870_g"
+	"$phongtint"           "[0.8 1.1 1.3]" 
+//"$phongexponent" 	"24"
+	"$phongalbedotint" "1"
+	"$halflambert" "1"
+
+	"$rimlight"                   "1"
+    "$rimlightexponent"           "26"
+    "$rimlightboost"              "0.4"
+    "$rimmask" 	                  "1"
+
+}
