@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+     addonSteamAppID         "550"
+     addontitle              "EFT MP-153 (Autoshotgun)"
+     addonversion            "1.0"
+     addontagline            "Weapons"
+     addonauthor             "The Law"
+     addonauthorSteamID      "The Law"
+     addonDescription        "EFT MP-153"
+
+}

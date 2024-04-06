@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture"				"dev\bump"
+	"$bumpmap"					"models\MP-153_AS\flashlight_glass_n"
+	"$phongexponenttexture"		"models\MP-153_AS\flashlight_glass_e"
+	"$model"					"1"
+	"$translucent"				"1"
+	"$additive"					"1"
+
+	"$envmap"					"env_cubemap"
+	"$envmapcontrast"			".8"
+	"$envmapsaturation"			"1"
+	"$envmaptint"				"[1 1 1]"	
+	"$normalmapalphaenvmapmask"	"1"
+
+	"$phong"					"1"
+	"$PhongDisableHalfLambert"	"1"
+}
