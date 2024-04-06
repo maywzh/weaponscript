@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "vgui/white"
+	
+$nodecal 1
+	"proxies"
+{
+	"Sine"
+	{
+		"ResultVar" "$alpha"
+		"sinemin" "0.0"
+		"sinemax" "0.0"
+	}
+}
+}

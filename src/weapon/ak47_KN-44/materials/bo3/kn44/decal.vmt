@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	$basetexture			"bo3\kn44\decal"
+	$bumpmap				"bo3\kn44\decal_n"
+	$phongexponenttexture	"vgui/white"
+	$translucent "1"
+
+	$phong	"1"
+	$phongboost	"2"
+	$phongfresnelranges	"[.78 .9 1]"
+	$phongexponent "33
+}

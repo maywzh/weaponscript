@@ -1,0 +1,49 @@
+"VertexlitGeneric"
+{
+	$basetexture			"bo3/kn44/stand/thlens"
+	$bumpmap				"bo3/kn44/stand/thlens_n"
+	$phongexponenttexture	"vgui/white"
+
+	$phong	"1"
+	$phongboost	"5"
+	$phongfresnelranges	"[.78 .9 1]"
+	$phongexponent "16"
+	$phongtint "{0 0 50}"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.05 .05 .05]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"1"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"2"
+
+"proxies"
+{
+	"Sine"
+	{
+		"ResultVar" "$alpha"
+		"sineperiod" "3"
+		"sinemin" "0.5"
+		"sinemax" "0.5"
+	}
+}
+	$selfillum "1"
+	$selfillummask "vgui/white"
+	$selfillumtint "[1 1 1]"
+	
+	$detail "bo3/kn44/stand/thlens_g"
+	$detailscale "1"
+	$detailblendmode "0"
+	$detailblendfactor "1.5"
+	
+	$emissiveBlendEnabled        "1"
+    $emissiveBlendTexture        "color/white"
+    $emissiveBlendBaseTexture    "bo3/kn44/stand/thlens_e"
+    $emissiveBlendFlowTexture    "color/white"
+    $emissiveBlendStrength        "1"
+    $emissiveBlendScrollVector    "[1 1]"
+    $emissiveBlendTint            "[0.25 0.5 1]"
+}

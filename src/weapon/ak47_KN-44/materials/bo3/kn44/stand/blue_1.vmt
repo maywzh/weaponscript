@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+"$basetexture" "_rt_FullFrameFB"
+
+"$detail" "_rt_FullFrameFB"
+"$detailblendmode"	"2"
+"$detailblendfactor" "1"
+"$detailscale" "1"
+
+"$color2"	"[0.1 0.1 0.75"
+
+"$alphatest" "1"
+
+}

@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	$basetexture			"bo3\kn44\kgb\kgb1"
+	$bumpmap				"bo3\kn44\kgb\kgb1_n"
+
+	$phong	"1"
+	$phongboost	"0.5"
+	$phongfresnelranges	"[.78 .9 1]"
+
+	//$envmap	"env_cubemap"
+	$envmaptint	"[.25 .25 .25]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"1"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"2"
+}

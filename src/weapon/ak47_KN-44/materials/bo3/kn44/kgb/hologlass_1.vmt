@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	$basetexture			"bo3\kn44\kgb\hologlass"
+	$bumpmap				"bo3\kn44\kgb\hologlass_n"
+
+	$selfillum 1
+	
+	$selfillummask	"bo3\kn44\kgb\hologlass_a"
+	$translucent "1"
+
+	// $color2 "[0.290196 0.231373 0.129412]"
+	$color2 "[0.290196 0.231373 0.129412]"
+
+	$phong	"1"
+	$phongboost	"5"
+	$phongfresnelranges	"[.78 .9 1]"
+	$phongexponent "66"
+	$phongtint "[0.760757 0.764664 0.764664]"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.25 .25 .25]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"1"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"2"
+}

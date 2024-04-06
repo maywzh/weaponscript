@@ -1,0 +1,11 @@
+ "AddonInfo"
+{
+     addonSteamAppID         "550"
+     addontitle              "QBZ95-1 LongBow (M16)"
+     addonversion            "1.5"
+     addontagline            "QBZ95-1, rifle"
+     addonauthor             "FHMJ"
+     addonauthorSteamID      "FHMJ"
+     addonDescription        "QBZ95-1 LongBow (M16)"
+ 
+}

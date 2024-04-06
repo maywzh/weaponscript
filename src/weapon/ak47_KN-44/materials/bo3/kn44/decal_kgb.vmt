@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	$basetexture			"bo3\kn44\decal_kgb"
+	$phongexponenttexture	"vgui/white"
+	$translucent "1"
+
+	$phong	"1"
+	$phongboost	"2"
+	$phongfresnelranges	"[.78 .9 1]"
+	$phongexponent "66"
+	
+	$detail "bo3\kn44\decal_e"
+	$detailblendmode 5
+	$detailscale 1
+}

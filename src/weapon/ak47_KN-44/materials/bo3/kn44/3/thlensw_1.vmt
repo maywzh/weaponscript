@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	$basetexture			"bo3/kn44/stand/thlens"
+	$bumpmap				"bo3/kn44/stand/thlens_n"
+	$phongexponenttexture	"vgui/white"
+
+	$phong	"1"
+	$phongboost	"5"
+	$phongfresnelranges	"[.78 .9 1]"
+	$phongexponent "16"
+	$phongtint "{0 0 50}"
+	
+	$envmap	"env_cubemap"
+	$envmaptint	"[.05 .05 .05]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"1"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"2"
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	$basetexture			"bo3\kn44\decal_stand"
+	$bumpmap				"bo3\kn44\decal_n"
+	$phongexponenttexture	"vgui/white"
+	"$halflambert"     "1"
+	"$translucent"     "1"
+	"$nocull" "1"
+	"$nodecal" "1"
+}
