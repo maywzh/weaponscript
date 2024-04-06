@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/v_models/weapons/cod/13"
+     "$bumpmap" "models/v_models/weapons/cod/13_n"
+    "$PhongExponentTexture" "models/v_models/weapons/cod/13_s"
+	$envmap "env_cubemap"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.42 0.42 0.42]"
+	$envmapcontrast 0.05
+	$envmapfresnel 1
+	$envmapfresnelminmaxexp "[10 40 .4]"
+	$envmaplightscale 0.21
+	$envmapanisotropy 1
+	$envmapanisotropyscale 0.08
+
+	$phong 1
+
+	$phongfresnelranges "[0.33 0.26 1]"
+	$phongtint "[0.51 0.51 0.51]"
+	$phongdisablehalflambert 1
+	$phongalbedotint 1
+	$phongboost 1.42
+	$phongalbedoboost 0.98
+	$basemapalphaphongmask 1
+
+	$nocompress 1
+}

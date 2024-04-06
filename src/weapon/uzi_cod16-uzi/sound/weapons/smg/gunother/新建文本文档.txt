@@ -1,0 +1,11 @@
+smg_clip_in_1                           00:00:00.40698        拔出	SMG.ClipIn
+smg_clip_locked_1		00:00:00.64408
+smg_clip_out_1		00:00:00.30000	
+smg_deploy_1		00:00:00.62342
+smg_fullautobutton_1	00:00:00.28018 	拉栓1	SMG.FullAutoButton
+smg_slideback_1		00:00:00.37773        拉栓2	SMG.SlideBack
+smg_slideforward_1		00:00:00.26190       卡榫	SMG.SlideForward
+部署 10帧-拉栓1  15帧-拉栓2
+换弹  -47到29
+-35帧-拔出      -12帧-拔出   -10帧-拉栓1      0帧-拔出  1帧-卡榫   10帧-拉栓1  15帧-拉栓2
+12	          35		37	     47            48            57                62

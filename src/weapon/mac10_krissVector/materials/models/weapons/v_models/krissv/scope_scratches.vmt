@@ -1,0 +1,19 @@
+
+"vertexlitgeneric"
+{
+"$basetexture" "models\weapons\v_models\krissv\scope_scratches_d"
+"$bumpmap" "models\weapons\v_models\krissv\scope_scratches_n"
+"$PhongExponentTexture" "models\weapons\v_models\krissv\scope_scratches_s"
+"$surfaceprop" "glass"
+"$translucent" "1"
+"$envmap" "env_cubemap"
+"$normalmapalphaenvmapmask" "1"
+"$envmapcontrast" "1"
+"$envmaptint" "[.1 .1 .1]"
+"$phong" 		"1"
+"$phongexponent" 	"120"
+"$phongboost" "20"
+"$phongfresnelranges" "[1 6 12]"
+}
+
+

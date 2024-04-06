@@ -1,0 +1,37 @@
+"AddonInfo"
+{
+    addonSteamAppID			"550"
+    addonTitle				"【MAC-10】Kriss Vector Tactical 1.3"
+    addonVersion			"1.3"
+	addonTagline 			"weapon,smg,silenced,vector"
+    addonAuthor				"Cele,scream,BurgerKeen,Kokkorylien"
+	addonAuthorSteamID		"https://steamcommunity.com/id/kokkorylien/"
+	addonSteamGroupName		"none"
+	addonURL0				"none"
+    addonDescription		"Replaces MAC-10.
+	Credits:
+	Cele,scream - Models.
+	Cele,BurgerKeen - Sounds.
+	Cele - Animtaions.
+	Kokkorylien - Models Modified, Animations Fixed, Attachments Corrected, HUD, Compiled.
+	"
+	
+	addonContent_BackgroundMovie 0
+	addonContent_BossInfected 0
+	addonContent_Campaign 0
+	addonContent_CommonInfected 0
+	addonContent_Map 0
+	addonContent_Music 0
+	addonContent_Prefab 0
+	addonContent_Prop 0
+	addonContent_Scavenge 0
+	addonContent_Script 0
+	addonContent_Survival 0
+	addonContent_Skin 1
+	addonContent_Sound 1
+	addonContent_Spray 0
+	addonContent_Survivor 0
+	addonContent_Versus 0
+	addonContent_Weapon 1
+	addonContent_WeaponModel 1
+}

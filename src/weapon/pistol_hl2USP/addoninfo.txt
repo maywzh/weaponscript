@@ -1,0 +1,26 @@
+"AddonInfo"
+{
+addonSteamAppID 550
+addontitle "USP" 
+addonversion 4.0
+addontagline "weapon,prop,Pistol" 
+addonauthor "Tien"
+addonauthorSteamID ""
+addonDescription "For Pistol"
+
+addonContent_Script 0
+addonContent_Music 0
+addonContent_Sound 1
+addonContent_prop 1
+addonContent_Prefab 0 
+
+addonContent_BackgroundMovie 0 
+addonContent_Survivor 0 
+addonContent_BossInfected 0
+addonContent_CommonInfected 0 
+addonContent_WeaponModel 1
+addonContent_weapon 1
+addonContent_Skin 0 
+addonContent_Spray 0 
+addonContent_Map 0
+}

@@ -1,0 +1,25 @@
+"AddonInfo"
+{
+addonSteamAppID 550
+addontitle "Military Sniper Reanimation" 
+addonversion 1.0
+addonauthor "Denny/zmg/Animal33"
+addonauthorSteamID "https://steamcommunity.com/profiles/76561198166586745/"
+addonDescription "Replacement Chrome Shotgun"
+
+addonContent_Script 0
+addonContent_Music 0
+addonContent_Sound 1
+addonContent_prop 1
+addonContent_Prefab 0 
+
+addonContent_BackgroundMovie 0 
+addonContent_Survivor 0 
+addonContent_BossInfected 0
+addonContent_CommonInfected 0 
+addonContent_WeaponModel 1
+addonContent_weapon 1
+addonContent_Skin 0 
+addonContent_Spray 0 
+addonContent_Map 0
+}

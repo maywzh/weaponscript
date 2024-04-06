@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	$basetexture "models/weapons/cs2/smg_mp5sd/weapon_smg_mp5sd_color"
+	$bumpmap "models/weapons/cs2/smg_mp5sd/weapon_smg_mp5sd_normal"
+
+	$envmap "env_cubemap"
+	$basealphaenvmapmask 1
+	$envmaptint "[0.30 0.30 0.30]"
+
+	$phong 1
+	$phongexponenttexture "models/weapons/cs2/smg_mp5sd/weapon_smg_mp5sd_exp"
+	$phongfresnelranges "[2 4 9]"
+	$phongalbedotint 1
+	$phongboost 5
+}

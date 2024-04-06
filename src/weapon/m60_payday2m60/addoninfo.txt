@@ -1,0 +1,13 @@
+"AddonInfo"
+{
+	"addonSteamAppID"	"550"
+	"addonTitle"		"[M60] PD2 M60"
+	"addonVersion"		"1.1"
+	"addonAuthor"		"Alex_D_Vasilkov/Animal33/Denny凯妈"
+	"addonAuthorSteamID"	"Alex_D_Vasilkov/Animal33/Denny凯妈"
+
+	"addonContent_Sound"	"0"
+	"Content_WeaponModel"	"1"
+
+	"addonDescription"	"M60 from Payday 2 on CoD4 animations"
+}

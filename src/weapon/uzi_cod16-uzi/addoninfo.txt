@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+    addonSteamAppID        550
+    addontitle             "COD16-Uzi(black)"
+    addonversion           "1.0"
+    addonauthor            "Azhe"
+    addonDescription       "我为这个MOD付出了很多的心血，未经授权，严禁擅自转载、修改、营利性使用和反编译 | I've put a lot of effort into this mod.Unauthorized reproduction, modification, profit-making use and decompilation are strictly prohibited"
+}

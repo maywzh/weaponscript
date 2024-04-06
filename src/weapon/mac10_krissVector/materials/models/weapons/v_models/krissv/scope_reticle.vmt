@@ -1,0 +1,12 @@
+
+
+
+"UnlitGeneric"
+{
+"$basetexture" "models\weapons\v_models\krissv\scope_reticle_d"
+	"$model" 		"1"
+	"$translucent" 	"1"
+	"$additive"	"1"
+	"$selfillum"	"1"
+	"$nocull"		"1"
+}

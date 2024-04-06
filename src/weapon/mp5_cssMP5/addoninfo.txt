@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+    addonSteamAppID        550
+    addontitle             "CS2 - MP5SD Reanimation For CSS MP5"
+    addonversion           "1.14"
+    addonauthor            "kuhuanggua/ihcorochris"
+    addonDescription       "Source 2 Model on my Animations"
+}
