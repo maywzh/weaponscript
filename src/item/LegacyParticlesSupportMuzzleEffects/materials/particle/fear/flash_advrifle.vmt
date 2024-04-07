@@ -1,0 +1,9 @@
+SpriteCard
+{
+$basetexture "particle\fear\flash_advrifle"
+
+$overbrightfactor 3
+$additive 1
+$vertexcolor 1
+$vertexalpha 1
+}

@@ -1,0 +1,20 @@
+"SpriteCard"
+{
+"$baseTexture" "particle/infinite_warfare/vfx_energy_plasmic_side_single"
+
+$additive 1
+$vertexcolor 1
+$vertexalpha 1
+
+//$depthblend 1
+
+$splinetype 1
+
+
+$overbrightfactor 2
+$addself 4
+
+//$minfadesize 1
+//$maxfadesize 0.2
+
+}

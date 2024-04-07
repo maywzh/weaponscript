@@ -1,0 +1,17 @@
+// The addoninfo.txt file is a metadata file that is required by all Source Engine Add-ons. 
+ 
+"AddonInfo"
+{
+     addonSteamAppID         500                                                     // 500 is the app ID for Left 4 Dead
+     addontitle              "Improved Blood Textures 1.1"                                             // Add-on title that shows up in Add-ons list. ~20 chars max
+     addonversion            1.1                                                     // Version number of add-on version of the form <major>.<minor>
+     addontagline            "Adds higher resolution textures (256 to 512) for splatters and wounds."	             // Add-on tagline or wrap-up- a short description. ~100 chars max
+     addonauthor             "dDefinder"                                                 // Name/alias of the author
+//     addonSteamGroupName     ""                                        // (Optional) Steam group related to the add-on. We use this to construct a URL to the group page.
+     addonauthorSteamID      "dDefinder"                                            // (Optional) Steam ID of author. We use this to construct a URL to the author's page.
+//     addonContent_Campaign   1 	                                                     //This addon provides muliple connected maps with a finale
+//     addonURL0               "http://media.steampowered.com/apps/513/deadline.html"  //An html home page for the add-on that includes a download link.
+ 
+     // short description that appears in the Add-on list screen...
+     addonDescription        "Adds higher resolution textures (256 to 512) for splatters and wounds. Splatter textures cover a wider area while splats/blobs of blood are cover less which helps to diversify the way blood appears."
+}

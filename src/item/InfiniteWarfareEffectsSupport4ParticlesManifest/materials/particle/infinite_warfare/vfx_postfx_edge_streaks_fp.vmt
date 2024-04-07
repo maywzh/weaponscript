@@ -1,0 +1,12 @@
+"SpriteCard"
+{
+	"$basetexture" "particle/infinite_warfare/vfx_postfx_edge_streaks"
+	//"$translucent" 1
+	$additive 1
+
+//$overbrightfactor 2	
+	
+
+
+
+}

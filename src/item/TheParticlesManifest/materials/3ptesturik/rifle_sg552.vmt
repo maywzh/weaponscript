@@ -1,0 +1,25 @@
+"SpriteCard"
+{
+	"$basetexture" "particle/3PtestUrik/rifle_sg552"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	$splinetype 1
+	$additive 1
+}
+//-- might come handy --
+//  
+//$additive 1 
+//$addself 1 	
+//$overbrightfactor 1 
+//$depthblend 1 
+//$depthblendscale 50 
+//$minsize 0 
+//$maxsize 1 
+//$minfadesize 1 
+//$maxfadesize 0.1 
+//$maxdistance 50 
+//$farfadeinterval 0.1 
+//$blendframes 0 
+//$splinetype 1 // for render_rope or render_sprite_trail 
+//  
+//https://developer.valvesoftware.com/wiki/SpriteCard

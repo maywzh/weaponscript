@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	addonSteamAppID	550
+	addontitle	"玩家状态提示与物品标记提示"
+	addonDescription "使用 bind g +alt1 绑定快捷键可以标记物品。非对抗类模式下可用。"
+	addonauthor	"LinGe"
+	addonURL0	"https://github.com/Lin515/L4D2_LinGe_VScripts"
+
+	addonContent_Script 1
+}

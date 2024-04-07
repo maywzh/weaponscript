@@ -1,0 +1,14 @@
+"SpriteCard"
+{
+	"$baseTexture" "particle/infinite_warfare/vfx_energy_zap_sheet"
+	"$additive" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+	$overbrightfactor 2
+	
+	
+
+
+
+}

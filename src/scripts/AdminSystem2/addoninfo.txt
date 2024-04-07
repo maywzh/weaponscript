@@ -1,0 +1,21 @@
+// The addoninfo.txt file is a metadata file that is required by all Source Engine Add-ons.
+
+"AddonInfo"
+{
+	addonSteamAppID		550							// 500 is the app ID for Left 4 Dead, 550 for Left 4 Dead 2
+	addontitle		"Admin System 2.0"						// Add-on title that shows up in Add-ons list. ~20 chars max
+	addonversion		19.1							// Add-on version.
+	addontagline		"You can play any mode with Admin control. Spawn Infected and weapons, kill and revive survivors, change Convars, change the timescale, and much, much more!"	// Add-on tagline or wrap-up- a short description. ~100 chars max
+	addonauthor		"Rayman1103 Edited By Andree Tran"						// Name/alias of the author
+	addonSteamGroupName	"Admin_System"						// (Optional) Steam group related to the add-on. We use this to construct a URL to the group page.
+	addonauthorSteamID	"Rayman1103"						// (Optional) Steam ID of author. We use this to construct a URL to the author's page.
+	addonURL0		"http://www.gamemaps.com/details/9406"			//An html home page for the add-on that includes a download link.
+
+	// short description that appears in the Add-on list screen...
+	addonDescription	"You can play any mode with Admin control. Spawn Infected and weapons, kill and revive survivors, change Convars, toggle the timescale, and much, much more!"
+
+	// Authors can add localized descriptions here. (Not yet supported)
+	//addonDescription_FR	""
+
+	addonContent_Script 1								// Has Scripts
+}

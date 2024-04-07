@@ -1,0 +1,1 @@
+IncludeScript( "vscript_restore_crawlanim", getroottable() );

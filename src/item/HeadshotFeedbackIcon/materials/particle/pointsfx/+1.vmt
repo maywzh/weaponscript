@@ -1,0 +1,7 @@
+SpriteCard
+
+{
+$basetexture "particle/pointsfx/+1"
+$additive 1
+$depthblend 1
+}

@@ -1,0 +1,5 @@
+UnlitGeneric
+{
+$baseTexture "vgui/ingamemenu/campaignFrame"
+$translucent 1
+}

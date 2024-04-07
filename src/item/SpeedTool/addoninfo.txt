@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+addonSteamAppID "550"
+addontitle "Speed Tools"
+addonversion "4.5"
+addonauthor "sopor/Elensil/Lady Shinku"
+addonDescription "Adds speedometer and average\max speed counters to your HUD. Developed in Electrik Boss Corporation (EBC). This version is for PCI Gaming."
+addonauthorSteamID "ShinkuRozenMaiden"
+}

@@ -1,0 +1,12 @@
+"SpriteCard"
+{
+	"$baseTexture" "particle/infinite_warfare/vfx_smk_white_wispy_smokehit_side_sheet"
+	//"$additive" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	//$overbrightfactor 10
+
+$depthblend 1
+//$depthblendscale
+
+}

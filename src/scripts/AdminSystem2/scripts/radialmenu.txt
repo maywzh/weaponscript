@@ -1,0 +1,133 @@
+"RadialMenu"
+{
+	//--------------------------------------------------------------
+	"Orders,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize smartlook"
+			"text"		"#L4D_rosetta_look"
+		}
+		"North"
+		{
+			"command"	"scripted_user_func give,all,rifle_m60"
+			"text"		"Give M60 All"
+		}
+		"NorthEast"
+		{
+			"command"	"scripted_user_func revive,all"
+			"text"		"Revive All"
+		}	
+		"East"
+		{
+			"command"	"scripted_user_func noclip"
+			"text"		"Noclip"
+		}	
+		"SouthEast"
+		{
+			"command"	"scripted_user_func warp"
+			"text"		"Warp All"
+		}	
+		"South"
+		{
+			"command"	"scripted_user_func infinite_ammo"
+			"text"		"Inf. Ammo"
+		}
+		"SouthWest"
+		{
+			"command"	"scripted_user_func defib,all"
+			"text"		"Defib All"
+		}
+		"West"
+		{
+			"command"	"scripted_user_func god,all"
+			"text"		"God Mode All"
+		}
+		"NorthWest"
+		{
+			"command"	"scripted_user_func warp_here"
+			"text"		"Warp Aim"
+		}	
+	}
+	
+	//--------------------------------------------------------------
+	"QA,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerAskReady"
+			"text"		"#L4D_rosetta_ready"
+		}
+		"North"
+		{
+			"command"	"scripted_user_func give,all,first_aid_kit"
+			"text"		"Medikit"
+		}
+		"NorthEast"
+		{
+			"command"	"scripted_user_func give,all,pain_pills"
+			"text"		"Pills"
+		}
+		"East"
+		{
+			"command"	"scripted_user_func director,start"
+			"text"		"Director ON"
+		}
+		"SouthEast"
+		{
+			"command"	"scripted_user_func give,all,vomitjar"
+			"text"		"Vomitjar"
+		}
+		"South"
+		{
+			"command"	"scripted_user_func upgrade_add,all,laser_sight"
+			"text"		"Laser"
+		}
+		"SouthWest"
+		{
+			"command"	"show_menu menu"
+			"text"		"Show Menu"
+		}
+		"West"
+		{
+			"command"	"scripted_user_func director,stop"
+			"text"		"Director OFF"
+		}
+		"NorthWest"
+		{
+			"command"	"scripted_user_func give,all,molotov"
+			"text"		"Molotov"
+		}
+	}
+	
+	//--------------------------------------------------------------
+	"Orders,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"label"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"QA,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Alerts,Zombie,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+}

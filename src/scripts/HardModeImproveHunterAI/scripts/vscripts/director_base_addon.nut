@@ -1,0 +1,1 @@
+IncludeScript("manacat_hunter")

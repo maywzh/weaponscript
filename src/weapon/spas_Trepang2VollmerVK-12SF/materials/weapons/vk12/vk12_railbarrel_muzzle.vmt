@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+	"$basetexture"					"weapons\VK12\VK12_Railbarrel_Muzzle_BC"
+	"$bumpmap"					"weapons\VK12\VK12_Railbarrel_Muzzle_NM"
+	"$model"						"1"
+	//$halflambert					1
+   	"$color2"						"[0.5 0.5 0.5]"
+	$nocull 						1
+	$nocompress					1
+//	$nowritez 					1
+
+
+//PHONG
+	"$phong"                        "1"
+	//"$phongtint"                    "[1 .75 .75 ]"
+	//$basemapalphaphongmask 1
+	$basemapluminancephongmask 1
+	"$phongboost"                   "20"
+	//"$phongexponent"				"50"
+	"$phongexponenttexture"			"weapons\VK12\VK12_Railbarrel_Muzzle_GT"
+	"$phongfresnelranges"			"[1.2 3.2 0.7]"
+	$phongalbedotint		1
+
+//ENVMAP
+	"$envmap"						"env_cubemap"
+	"$basemapalphaenvmapmask"				"1"
+	"$envmaptint" "[ .01 .01 .01 ]"
+	$envmapfresnel 1
+
+	$diffuseexp 		"1.3"
+	$lightwarptexture					"weapons\VK12\VK12_LW"
+}

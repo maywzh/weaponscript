@@ -1,0 +1,11 @@
+SpriteCard
+{
+$basetexture "particle\fear\muzzleflash_purple"
+
+$additive 1
+$vertexcolor 1
+$vertexalpha 1
+
+$overbrightfactor 3
+$addself 2
+}

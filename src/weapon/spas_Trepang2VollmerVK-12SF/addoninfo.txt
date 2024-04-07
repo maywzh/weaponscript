@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+    addonSteamAppID        550
+    addontitle             "Trepang2 Vollmer VK-12FS Shotgun"
+    addonversion           1.0
+    addonauthor            "Lt. Rocky"
+    addonDescription       "Replaces the Spas Shotgun on it's own animations"
+    addonTagline	   "This outta put the F.E.A.R. in 'em"
+}

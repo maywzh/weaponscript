@@ -1,0 +1,151 @@
+particles_manifest
+{
+	"file"		"!particles/error.pcf"
+	"file"		"particles/steamworks.pcf"
+	"file"		"particles/environmental_fx.pcf"
+	"file"		"particles/rain_fx.pcf"
+	"file"		"particles/burning_fx.pcf"
+	"file"		"particles/fire_01.pcf"
+	"file"		"particles/fire_01L4D.pcf"
+	"file"		"particles/fire_01L4D_garage.pcf"
+	"file"		"particles/fire_01_lighthouse.pcf"
+	"file"		"particles/electrical_fx.pcf"
+	"file"		"particles/steam_fx.pcf"
+	"file"		"particles/locator_fx.pcf"
+	"file"		"particles/witch_fx.pcf"
+	"file"		"particles/speechbubbles.pcf"
+	"file"		"particles/rain_storm_fx.pcf"
+	"file"		"particles/military_artillery_impacts.pcf"
+	"file"		"particles/rope_fx.pcf"
+	"file"		"particles/spitter_fx.pcf"
+	"file"		"particles/fireworks_fx.pcf"
+	"file"		"particles/vehicle_fx.pcf"
+	"file"		"particles/insect_fx.pcf"
+	"file"		"particles/charger_fx.pcf"
+	"file"		"particles/item_fx.pcf"
+	"file"		"particles/gen_dest_fx.pcf"
+	"file"		"particles/tanker_explosion.pcf"
+	"file"		"particles/firework_crate_fx.pcf"
+	"file"		"particles/coldstream.pcf"
+
+	// clean
+	"file"		"!particles/footstep_fx.pcf"
+	"file"		"!particles/screen_fx.pcf"
+	"file"		"!particles/smoker_fx.pcf"
+	"file"		"!particles/boomer_fx.pcf"
+	"file"		"!particles/hunter_fx.pcf"
+	"file"		"!particles/water_fx.pcf"
+	"file"		"!particles/tank_fx.pcf"
+	"file"		"!particles/blood_fx.pcf"
+
+
+	// Were ! appear to be precached
+	"file"		"particles/infected_fx.pcf"
+
+	//require cleaning
+	"file"		"!particles/survivor_fx.pcf"
+	"file"		"!particles/weapon_fx.pcf"
+	"file"		"!particles/weapon_fx_newbrasseject.pcf"
+	"file"		"!particles/impact_fx.pcf"
+
+
+
+	//deprecated
+	//"file"	"particles/ui_fx.pcf"
+
+	//River Campaign
+	"file"		"particles/environment_fx_river.pcf"
+	"file"		"particles/environmental_fx_river.pcf"
+	"file"		"particles/fire_01_river.pcf"
+	"file"		"particles/fire_01L4D_river.pcf"
+	"file"		"particles/weapon_fx_river.pcf"
+	"file"		"particles/laststand.pcf"
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Legacy Particles Support v1.1
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// temporary
+//file	!particles/legacy_muzzlefx.pcf
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Particles Manifest
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+file	!particles/muzzletest.pcf
+file	!particles/particlesmanifest.pcf
+
+// Firearms - Custom Third-Person Effect Packages ( to be used with weapon_scripts)
+file	!particles/3p/weapon_pumpshotgun.pcf
+file	!particles/3p/weapon_shotgun_chrome.pcf
+file	!particles/3p/weapon_autoshotgun.pcf
+file	!particles/3p/weapon_shotgun_spas.pcf
+file	!particles/3p/weapon_hunting_rifle.pcf
+file	!particles/3p/weapon_sniper_military.pcf
+file	!particles/3p/weapon_rifle.pcf
+file	!particles/3p/weapon_rifle_ak47.pcf
+file	!particles/3p/weapon_rifle_desert.pcf
+file	!particles/3p/weapon_rifle_m60.pcf
+file	!particles/3p/weapon_smg.pcf
+file	!particles/3p/weapon_smg_silenced.pcf
+file	!particles/3p/weapon_pistol.pcf
+file	!particles/3p/weapon_pistol_magnum.pcf
+file	!particles/3p/weapon_rifle_sg552.pcf
+file	!particles/3p/weapon_smg_mp5.pcf
+file	!particles/3p/weapon_sniper_awp.pcf
+file	!particles/3p/weapon_sniper_scout.pcf
+
+file	!particles/3pfx_debug.pcf
+
+// Items
+file	particles/bilebomb.pcf
+file	particles/defi.pcf								// because defibrillator might be hard to spell
+
+// Bullet Tracers
+file	!particles/tracers.pcf
+file	!particles/tracers_50cal.pcf
+
+// Enhancements
+file	particles/lasersights.pcf
+
+// Throwables
+file	!particles/pipe_fuseflash.pcf					// fuse and light effects for pipebomb
+file	!particles/pipe_tank_explosion.pcf				// explosion effect for pipebomb. Also used for propanetank and oxygentank!
+file	!particles/molotov.pcf
+file	!particles/molotov_groundfire.pcf
+
+// Melee
+file	!particles/axe+guitar.pcf
+file	!particles/baseball.pcf
+file	!particles/cricket.pcf
+file	!particles/frying_pan.pcf
+file	!particles/katana.pcf
+file	!particles/machete+tonfa.pcf
+
+// Firearms - Default FX Replacements
+file	!particles/pistol.pcf
+file	!particles/pistol_magnum+shotguns.pcf
+file	!particles/rifles.pcf
+file	!particles/smg+ak47.pcf
+file	!particles/smg_silenced.pcf
+file	!particles/sniper+hunting.pcf
+file	!particles/grenade_launcher.pcf
+file	!particles/minigun.pcf
+
+file	!particles/brass_eject.pcf
+
+// Firearms - Custom First-Person Effect Packages
+file	!particles/infinite_warfare.pcf
+file	!particles/gravemind_particles.pcf
+
+//file	!particles/FEAR.pcf
+
+// Survivors--
+file	particles/urik/urik_survivors.pcf
+//file	particles/yournamehere/whatever.pcf
+
+// Campaigns: PLEASE USE PER-MAP MANIFEST FOR YOUR MAPS/CAMPAIGNS. MORE INFO AT https://developer.valvesoftware.com/wiki/Particles_manifest.txt
+
+// Urik ©2018-2020
+// Please don't remove the bracket at the end
+}

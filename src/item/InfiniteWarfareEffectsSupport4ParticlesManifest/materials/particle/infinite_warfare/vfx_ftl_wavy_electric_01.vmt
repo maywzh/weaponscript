@@ -1,0 +1,9 @@
+"SpriteCard"
+{
+	"$baseTexture" "particle/infinite_warfare/vfx_ftl_wavy_electric_01"
+	"$additive" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1	
+	
+$overbrightfactor 2
+}

@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	addonSteamAppID			"550"						
+     addontitle				"Head Shot FX【爆头特效】 (blood_fx)"		
+	 addonDescription		"Shoot Zombies' head will feedback a Skeleton."	
+     addonversion			"2.0"					
+     addontagline			""							
+     addonauthor			"Urik_Kane & 仓鼠箘(Hamster Jun)"			
+	 
+}
+

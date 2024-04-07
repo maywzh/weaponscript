@@ -1,1 +1,0 @@
-Convars.SetValue("ammo_painpills_max", 2)
