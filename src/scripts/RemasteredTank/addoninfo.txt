@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+     addonSteamAppID         550                                                     // 500 is the app ID for Left 4 Dead, 550 for Left 4 Dead 2
+     addontitle              "TANK: Remastered"                                           // Add-on title that shows up in Add-ons list. ~20 chars max
+     addonversion	     1.0                                                   // Add-on version.
+     addontagline            "Little Pig, Little Pig, Let me come in!"	     // Add-on tagline or wrap-up- a short description. ~100 chars max
+     addonauthor             "Spicy_Jam"                                                 // Name/alias of the author
+ 
+     // short description that appears in the Add-on list screen...
+     addonDescription        "desc"
+}
