@@ -9,7 +9,7 @@ WeaponData
 	"MinStandingSpread"		"0.4"
 	"MinInAirSpread"		"1.5"
 	"MaxMovementSpread"		"3"
-	"ReloadDuration"		"2.0"                      // 换弹速度 秒为单位 -1改为1.5
+	"ReloadDuration"		"2.5"                      // 换弹速度 秒为单位 -1改为1.5
 	"AddonAttachment"		"primary"
 	"Team" 					"Survivor"
 	
@@ -60,7 +60,7 @@ WeaponData
 	"RangeModifier"			"0.97"
 	"GainRange"			"1500"	// range at which to use a gain curve to fall off to zero
 	"Bullets"			"1"
-	"CycleTime"			"0.5"   // 枪械射速间隔 0.2改成0.5
+	"CycleTime"			"0.8"   // 枪械射速间隔 0.2改成0.5
 
 	"TimeToIdle"			"1.5"
 	"IdleInterval"			"60"
