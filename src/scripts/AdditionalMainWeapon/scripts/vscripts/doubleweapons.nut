@@ -43,11 +43,12 @@ function OnGameEvent_player_say(params)
         }
         }
     }
-    
+
 }
 function OnGameEvent_player_connect(params)//玩家加入事件，当有新玩家加入则进行给新玩家创建数组。
 {
     CreateNickArray();
+    ::printlang(" 今日技巧: 按住E+鼠标右键可以选择第二主武器 ")
 }
 function OnGameEvent_bot_player_replace(params)
 {
@@ -130,10 +131,10 @@ function PlayerRunCmds()
                 if(IsPlayerABot(ent) == false && ent.IsDying() == false)//玩家不是电脑，没死
                 {
                     local button = ent.GetButtonMask();//获取按下的按钮
-                    
+
                     local n =ArrayGetNum(Nicks,ent);//获取这个玩家的数组编号
                     if(button == 2080 || button == 2088)//按钮是E+右键且这个实体在数组内。
-                    { 
+                    {
                         if(Nicks.find(ent) != null)
                         {
                              local nowWeapon = GetPlayerWeapon(ent,0);//获得当前武器的classname;
@@ -147,7 +148,7 @@ function PlayerRunCmds()
                                     if(Times_[n] == 1 && Weapons[n] != "weapon_none")//非第一次存武器且已经存了武器
                                     {
                                         if(GetPlayerWeapon(ent,0) !=null)//有主武器
-                                        {   
+                                        {
                                             local temp_u = (NetProps.GetPropInt(GetPlayerWeapon(ent,0),"m_upgradeBitVec")).tointeger();
                                             local temp_w = GetPlayerWeapon(ent,0).GetClassname().tostring();
                                             local temp_f = (NetProps.GetPropInt(GetPlayerWeapon(ent,0),"m_iClip1")).tointeger();
@@ -160,7 +161,7 @@ function PlayerRunCmds()
                                             SaveMyWeapon(ent,n,temp_w,temp_f,temp_s,temp_u,0,true);//存武器
                                             if(temp_ua > 0)
                                             SaveMyWeapon(ent,n,temp_w,temp_f,temp_s,temp_u,temp_ua,true);//存武器
-                                            
+
                                         }else if(GetPlayerWeapon(ent,0) == null)
                                         {
                                             local temp_ww = "weapon_none";
@@ -175,12 +176,12 @@ function PlayerRunCmds()
                                             SaveMyWeapon(ent,n);
                                             GetPlayerWeapon(ent,0).Kill();
                                         }
-                                
+
                                     }
                                 }
                         }
-                               
-                        
+
+
                     }
                 }
             //}
@@ -215,7 +216,7 @@ function GiveWeaponFromInv(ent,num)
                         NetProps.SetPropInt(GetPlayerWeapon(ent,0),"m_upgradeBitVec",Upgard[num]);
                         NetProps.SetPropInt(GetPlayerWeapon(ent,0),"m_nUpgradedPrimaryAmmoLoaded",uAmmo[num]);
                     }
-                    
+
                 }else if(Upgard[num] == 4)
                 {
                     NetProps.SetPropInt(GetPlayerWeapon(ent,0),"m_upgradeBitVec",Upgard[num]);
@@ -245,7 +246,7 @@ function GiveWeaponFromInv(ent,num)
                         NetProps.SetPropInt(GetPlayerWeapon(ent,0),"m_upgradeBitVec",Upgard[num]);
                         NetProps.SetPropInt(GetPlayerWeapon(ent,0),"m_nUpgradedPrimaryAmmoLoaded",uAmmo[num]);
                     }
-                    
+
                 }else if(Upgard[num] == 4)
                 {
                     NetProps.SetPropInt(GetPlayerWeapon(ent,0),"m_upgradeBitVec",Upgard[num]);
@@ -255,8 +256,8 @@ function GiveWeaponFromInv(ent,num)
                     NetProps.SetPropInt(GetPlayerWeapon(ent,0),"m_iClip1",fAmmo[num]);
                 }
         }
-        
-    } 
+
+    }
 }
 function SaveMyWeapon(ent,num,tpw=null,tpf=null,tps=null,tpu=null,tpum=null,tpr = false)
 {
@@ -283,5 +284,5 @@ function SaveMyWeapon(ent,num,tpw=null,tpf=null,tps=null,tpu=null,tpum=null,tpr 
         ::Upgard[num] = tpu;
         ::uAmmo[num] = tpum;
     }
-    
+
 }
